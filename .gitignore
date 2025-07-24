@@ -1,0 +1,70 @@
+# Ignore everything by default
+*
+
+# But include these code files and directories
+!*.js
+!*.ts
+!*.jsx
+!*.tsx
+!*.html
+!*.css
+!*.scss
+!*.sass
+!*.json
+!*.md
+!*.py
+!*.go
+!*.java
+!*.cpp
+!*.c
+!*.h
+!*.php
+!*.rb
+!*.swift
+!*.kt
+!*.rs
+!*.vue
+!*.svelte
+
+# Include important config files
+!package.json
+!package-lock.json
+!yarn.lock
+!tsconfig.json
+!webpack.config.js
+!vite.config.js
+!rollup.config.js
+!babel.config.js
+!.eslintrc.*
+!.prettierrc.*
+!tailwind.config.js
+
+# Include directories (but they need files to be tracked)
+!src/
+!public/
+!components/
+!pages/
+!utils/
+!lib/
+!assets/
+!styles/
+!docs/
+
+# Keep the .gitignore file itself
+!.gitignore
+
+# Re-ignore these even if they match above patterns
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+coverage/
+*.log
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+ROADMAP.md
