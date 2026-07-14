@@ -1,4 +1,4 @@
-# 🤖 WebLLM Chatbot
+# webgpu-llm-inference-client
 
 A modern, responsive chatbot application built with React and Vite, powered by WebLLM for running large language models directly in the browser.
 
